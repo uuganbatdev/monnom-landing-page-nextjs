@@ -10,15 +10,15 @@ function SectionSix() {
 		<SectionSixStyled>
 			<h2>Сэтгэгдэлүүд</h2>
 			<div className='cards-container'>
-				<div className='book-card' style={{ backgroundImage: `linear-gradient(to right, ${generateColor()}, ${generateColor()}` }}>
+				<div className='book-card' style={{ backgroundImage: `linear-gradient(90deg, ${generateColor()}, ${generateColor()}` }}>
   					<img src='/book-1.png' />
 					<p>"Их удаан хүлээсний эцэст уншихад хүлээлтээс илүү байж чадлаа"</p>
 				</div>
-				<div className='book-card' style={{ backgroundImage: `linear-gradient(to right, ${generateColor()}, ${generateColor()})` }} >
+				<div className='book-card' style={{ backgroundImage: `linear-gradient(90deg, ${generateColor()}, ${generateColor()})` }} >
 					<img src='/book-2.png' />
 					<p>"Баярлалаа их гоё зохиолтой ном байна. Маш их таалагдлаа"</p>
 				</div>
-				<div className='book-card' style={{ backgroundImage: `linear-gradient(to right, ${generateColor()}, ${generateColor()})` }}>
+				<div className='book-card' style={{ backgroundImage: `linear-gradient(90deg, ${generateColor()}, ${generateColor()})` }}>
 					<img src='/book-3.png' />
 					<p>"Их удаан хүлээсний эцэст уншихад хүлээлтээс илүү байж чадлаа"</p>
 				</div>

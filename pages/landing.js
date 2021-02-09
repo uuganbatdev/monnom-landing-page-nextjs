@@ -6,6 +6,7 @@ import SectionThree from '../sections/SectionThree'
 import SectionFour from '../sections/SectionFour'
 import SectionFive from '../sections/SectionFive'
 import SectionSix from '../sections/SectionSix'
+import Footer from '../components/Footer'
 
 function Landing() {
 	return(
@@ -18,12 +19,15 @@ function Landing() {
 				<SectionFive />
 				<SectionSix />
 			</main>
+			<Footer />
 		</LandingStyled>
 	)
 }
 
 const LandingStyled = styled.div`
-width: 80%;
-margin: 0 auto;
+main {
+	width: 80%;
+	margin: 0 auto;
+}
 `
 export default Landing
