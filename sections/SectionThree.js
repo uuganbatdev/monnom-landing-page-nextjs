@@ -36,7 +36,7 @@ img {
 		font-weight: 500;
 	}
 	p {
-		opacity: 0.5;
+		opacity: 0.7;
 		width: 90%;
 	}
 	a {

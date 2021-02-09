@@ -3,6 +3,7 @@ import Head from 'next/head'
 import SectionOne from '../sections/SectionOne'
 import SectionTwo from '../sections/SectionTwo'
 import SectionThree from '../sections/SectionThree'
+import SectionFour from '../sections/SectionFour'
 
 function Landing() {
 	return(
@@ -11,6 +12,7 @@ function Landing() {
 				<SectionOne />
 				<SectionTwo />
 				<SectionThree />
+				<SectionFour />
 			</main>
 		</LandingStyled>
 	)

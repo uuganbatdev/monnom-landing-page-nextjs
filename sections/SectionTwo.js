@@ -4,7 +4,7 @@ function SectionTwo() {
 	return(
 		<SectionTwoStyled>
 			<h2>
-				Бид таньд чанартай контентуудыг хямд үнээр санал болгож байна.
+				Би  таньд чанартай контентуудыг хямд үнээр санал болгож байна.
 			</h2>
 			<div className='cards-container'>
 				<div className='card'>
@@ -102,7 +102,7 @@ h2 {
 	}
 	p {
 		width: 50%;
-		opacity: 0.5;
+		opacity: 0.7;
 	}
 }
 `
