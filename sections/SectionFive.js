@@ -68,7 +68,7 @@ h2 {
 	opacity: 0.7;
 	width: 60%;
 	text-align: center;
-	margin: 4vh 0;
+	margin-bottom: 0;
 }
 .cards-container1 {
 	margin-top: 2vh;
@@ -118,7 +118,7 @@ h2 {
 .bg {
 	position: absolute;
 	height: 30vw;
-	width: 25vw;
+	width: 26vw;
 	left: 80%;
 	top: 30%;
 	background: #0d13d7;

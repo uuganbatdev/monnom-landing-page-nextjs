@@ -5,6 +5,7 @@ import SectionTwo from '../sections/SectionTwo'
 import SectionThree from '../sections/SectionThree'
 import SectionFour from '../sections/SectionFour'
 import SectionFive from '../sections/SectionFive'
+import SectionSix from '../sections/SectionSix'
 
 function Landing() {
 	return(
@@ -15,6 +16,7 @@ function Landing() {
 				<SectionThree />
 				<SectionFour />
 				<SectionFive />
+				<SectionSix />
 			</main>
 		</LandingStyled>
 	)
