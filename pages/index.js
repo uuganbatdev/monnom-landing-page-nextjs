@@ -4,10 +4,6 @@ import Head from 'next/head';
 function Home() {
 	return(
 		<HomeStyled>
-			<Head>
-				<link rel="preconnect" href="https://fonts.gstatic.com" />
-				<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
-			</Head>
 			<div className='bubble1'></div>
 			<div className='bubble2'></div>
 			<div className='bubble3'></div>
@@ -36,12 +32,12 @@ function Home() {
 				</div>
 				<div className='right-side'>
 					<div className='rs-img-container'>
-						<img class='rs-img rs1' src='/home-iphone.png' />
-						<img class='rs-img rs2' src='/logo.png' />
+						<img className='rs-img rs1' src='/home-iphone.png' />
+						<img className='rs-img rs2' src='/logo.png' />
 					</div>
-					<img class='rs-img rs3' src='/home-1.png' />
-					<img class='rs-img rs4' src='/home-2.png' />
-					<img class='rs-img rs5' src='/home-3.png' />
+					<img className='rs-img rs3' src='/home-1.png' />
+					<img className='rs-img rs4' src='/home-2.png' />
+					<img className='rs-img rs5' src='/home-3.png' />
 				</div>
 			</main>
 		</HomeStyled>
