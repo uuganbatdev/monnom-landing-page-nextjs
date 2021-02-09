@@ -6,7 +6,6 @@ function SectionOne() {
 				<div className='first-section'>
 					<div className='section1-bg'>
 						<img className='bg-img' src='/landing-bg.png' alt='background'/>
-						<div className='bg-color'></div>
 					</div>
 					<div className='s1-left-side'>
 						<div className='inner-s1-left-top'>
@@ -141,6 +140,39 @@ color: white;
 			.big-img {
 				width: 50%;
 			}
+		}
+	}
+}
+@media only screen and (max-width: 700px) {
+	.first-section {
+		.s1-left-side {
+			width: 100%;
+		}
+		.inner-s1-left-top {
+			flex-direction: column;
+			align-items: center;
+		}
+		.s1-headings {
+			h2 {
+				margin: 0!important;
+			}
+		}
+		.inner-s1-left-bot {
+			display: flex;
+			flex-direction: column;
+			a {
+				align-self: flex-end;
+			}
+		}
+		.section1-bg {
+			height: 120vh;
+			.bg-img {
+				height: 100%;
+				object-fit: cover;
+			}
+		}
+		.s1-right-side {
+			display: none;
 		}
 	}
 }

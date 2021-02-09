@@ -45,6 +45,7 @@ background: #6b6baf;
 color: white;
 font-weight: 500;
 h2 {
+	font-family: 'Josefin Sans';
 	margin: 0 ;
 }
 .container {
