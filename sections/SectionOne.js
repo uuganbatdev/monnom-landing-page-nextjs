@@ -50,7 +50,6 @@ const SectionOneStyled = styled.div`
 color: white;
 .first-section {
 	display: flex;
-	height: 80vh;
 	padding-top: 5vh;
 	.section1-bg {
 		width: 100vw;

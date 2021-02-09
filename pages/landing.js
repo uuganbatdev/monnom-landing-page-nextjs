@@ -1,12 +1,14 @@
 import styled from '@emotion/styled'
 import Head from 'next/head'
 import SectionOne from '../sections/SectionOne'
+import SectionTwo from '../sections/SectionTwo'
 
 function Landing() {
 	return(
 		<LandingStyled>
 			<main>
 				<SectionOne />
+				<SectionTwo />
 			</main>
 		</LandingStyled>
 	)
