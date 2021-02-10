@@ -105,5 +105,30 @@ h2 {
 		opacity: 0.7;
 	}
 }
+@media only screen and (max-width: 700px) {
+	h2 {
+		width: 100%;
+		font-size: 1.4rem;
+	}
+	.cards-container {
+		flex-direction: column;
+		.card {
+			width: 100%;
+			margin: 3vh 0;
+			.img-container {
+				width: 100%;
+				display: grid;
+				place-items: center;
+			}
+		}
+	}
+	.reason {
+		width: 100%;
+		p {
+			width: 100%;
+			text-align: left;
+		}
+	}
+}
 `
 export default SectionTwo

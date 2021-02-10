@@ -7,7 +7,7 @@ function Footer() {
 				<div className='left'>
 					<img className='logo' src='./logo.png' />
 					<div className='inner-left'>
-						<h2>MON|NOM</h2>
+						<h2>MON<span>|</span>NOM</h2>
 						<div className='left-bottom'>
 							<a href='#'><img src='/facebook.png' alt='social' /></a>
 							<a href='#'><img src='/twitter.png' alt='social' /></a>
@@ -47,6 +47,10 @@ font-weight: 500;
 h2 {
 	font-family: 'Josefin Sans';
 	margin: 0 ;
+	span {
+		font-size: 1.8rem;
+		font-weight: 400;
+	}
 }
 .container {
 	width: 80%;
