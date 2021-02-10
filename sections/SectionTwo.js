@@ -106,6 +106,7 @@ h2 {
 	}
 }
 @media only screen and (max-width: 700px) {
+	margin-top: 15vh!important;
 	h2 {
 		width: 100%;
 		font-size: 1.4rem;
@@ -126,6 +127,9 @@ h2 {
 		width: 100%;
 		p {
 			width: 100%;
+			text-align: left;
+		}
+		h2 {
 			text-align: left;
 		}
 	}

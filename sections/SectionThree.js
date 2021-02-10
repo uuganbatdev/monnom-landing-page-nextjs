@@ -78,5 +78,13 @@ img {
 		background: #3c41df;
 	}
 }
+@media only screen and (max-width: 700px) {
+	.bg, img {
+		display: none;
+	}
+	.right-side {
+		width: 100%;
+	}
+}
 `
 export default SectionThree

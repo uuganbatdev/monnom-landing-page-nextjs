@@ -58,5 +58,14 @@ h2 {
 		}
 	}
 }
+@media only screen and (max-width: 700px) {
+	.cards-container {
+		flex-direction: column;
+		.book-card {
+			width: 100%;
+			margin: 3vh 0;
+		}
+	}
+}
 `
 export default SectionSix

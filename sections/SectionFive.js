@@ -145,5 +145,20 @@ h2 {
 		background: #3c41df;
 	}
 }
+@media only screen and (max-width: 700px) {
+	.parag {
+		width: 100%;
+	}
+	.bg {
+		display: none;
+	}
+	.cards-container1 {
+		flex-direction: column;
+		.card {
+			align-self: center;
+			width: 70%;
+		}
+	}
+}
 `
 export default SectionFive

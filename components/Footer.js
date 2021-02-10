@@ -110,5 +110,25 @@ h2 {
 	}
 }
 
+@media only screen and (max-width: 700px) {
+	.container {
+		flex-wrap: wrap;
+		.left  {
+			width: 100%;
+			margin-bottom: 5vh;
+		}
+		.middle, .right {
+			width: 50%;
+		}
+		.middle {
+			p {
+				width: 100%;
+			}
+			a {
+				width: 100%;
+			}
+		}
+	}
+}
 `
 export default Footer

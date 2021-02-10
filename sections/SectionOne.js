@@ -165,7 +165,7 @@ color: white;
 			}
 		}
 		.section1-bg {
-			height: 120vh;
+			height: 100vh;
 			.bg-img {
 				height: 100%;
 				object-fit: cover;

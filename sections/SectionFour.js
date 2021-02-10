@@ -97,5 +97,24 @@ h2 {
 		}
 	}
 }
+@media only screen and (max-width: 700px) {
+	h2, .parag {
+		width: 100%;
+	}
+	.parag {
+		text-align: left;
+	}
+	.cards-container {
+		flex-direction: row;
+		flex-wrap: wrap;
+		.card {
+			width: 50%;
+			margin: 3vh 0;
+			.img-container {
+				width: 30%;
+			}
+		}
+	}
+}
 `
 export default SectionFour
