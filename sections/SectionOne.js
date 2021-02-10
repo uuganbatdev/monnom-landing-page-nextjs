@@ -16,10 +16,7 @@ function SectionOne() {
 							<h2>Подкаст, Ном, Дуу Хөгжим</h2>
 						</div>
 						<div className='inner-s1-left-bot'>
-							<p>
-								Lorem ipsum dolor sit amet, consetetur sadipscing , sed diam nonumy eirmod tempoet justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-							</p>
-							<a href='#'>Coming Soon<img src='/direct-download.png' alt='download'/></a>
+							<a href='#'>Тун удахгүй<img src='/direct-download.png' alt='download'/></a>
 						</div>
 					</div>
 					<div className='s1-right-side'>
@@ -143,7 +140,8 @@ color: white;
 		}
 	}
 }
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 800px) {
+	height: 100vh;
 	.first-section {
 		.s1-left-side {
 			width: 100%;
@@ -161,11 +159,11 @@ color: white;
 			display: flex;
 			flex-direction: column;
 			a {
-				align-self: flex-end;
+				align-self: flex-start;
 			}
 		}
 		.section1-bg {
-			height: 100vh;
+			height: 120vh;
 			.bg-img {
 				height: 100%;
 				object-fit: cover;

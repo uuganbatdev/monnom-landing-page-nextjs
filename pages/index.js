@@ -1,5 +1,6 @@
 import styled from '@emotion/styled';
 import Head from 'next/head';
+import Link from 'next/link'
 
 function Home() {
 	return(
@@ -19,14 +20,18 @@ function Home() {
 					<div className='btns-container'>
 						<p>Тун удахгүй</p>
 						<div className='inner-btns'>
-							<a href='#'>
-								<img src='/app-store.png' />
-								AppsStore
-							</a>
-							<a href='#'>
-								<img src='/playstore.png' />
-								Playstore
-							</a>
+							<Link href='/landing'>
+								<a>
+									<img src='/app-store.png' />
+									AppsStore
+								</a>
+							</Link>
+							<Link href='/landing'>
+								<a>
+									<img src='/playstore.png' />
+									Playstore
+								</a>
+							</Link>
 						</div>
 					</div>
 				</div>
@@ -107,14 +112,14 @@ const HomeStyled = styled.div`
 				font-weight: 300;
 				background: white;
 				border-radius: 2vw;
-				padding: 1vw;
+				padding: 10px;
 				display: inline-flex;
 				align-items: center;
 				justify-content: center;
 				color: black;
 				img {
 					margin-right: 0.5vw;
-					width: 1.5vw;
+					width: 30px;
 					object-fit: contain;
 				}
 			}
@@ -194,7 +199,7 @@ const HomeStyled = styled.div`
 		bottom: -10%;
 		background: #D39079;
 	}
-	@media only screen and (max-width: 600px) {
+	@media only screen and (max-width: 800px) {
 	  .right-side {
 		display: none;
 	  }

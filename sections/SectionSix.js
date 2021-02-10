@@ -58,7 +58,7 @@ h2 {
 		}
 	}
 }
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 800px) {
 	.cards-container {
 		flex-direction: column;
 		.book-card {

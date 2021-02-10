@@ -7,8 +7,9 @@ function SectionFour() {
 				Нийт Хэрэглүүрт Байгаа Контент
 			</h2>
 			<p className='parag'>
-				Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+				Манай апп-д өдөр болгон шинэ ном, дуу хөгжим болон подкаст сувагууд шинээр орж ирдэг байгаа бөгөөд та энэ бүхнийг зах зээлийн үнээс хямдхан түрээслэн ашиглах боломжтой.
 			</p>
+ 
 			<div className='cards-container'>
 				<div className='card'>
 					<div className='img-container'>
@@ -16,7 +17,7 @@ function SectionFour() {
 					</div>
 					<div className='parag-container'>
 						<p>100+</p>
-						<h3>Music</h3>
+						<h3>Дуу хөгжимMusic</h3>
 					</div>
 				</div>
 				<div className='card'>
@@ -25,7 +26,7 @@ function SectionFour() {
 					</div>
 					<div className='parag-container'>
 						<p>100+</p>
-						<h3>Podcast</h3>
+						<h3>Подкаст</h3>
 					</div>
 				</div>
 				<div className='card'>
@@ -34,7 +35,7 @@ function SectionFour() {
 					</div>
 					<div className='parag-container'>
 						<p>90+</p>
-						<h3>eBooks</h3>
+						<h3>Онлайн, Сонсдог ном</h3>
 					</div>
 				</div>
 			</div>
@@ -97,7 +98,7 @@ h2 {
 		}
 	}
 }
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 800px) {
 	h2, .parag {
 		width: 100%;
 	}

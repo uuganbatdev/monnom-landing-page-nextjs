@@ -5,7 +5,7 @@ function SectionFive() {
 		<SectionFiveStyled>
 			<h2>MONNOM</h2>
 			<p className='parag'>
-				Lorem ipsum aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+				Тун удахгүй шинэ төрлийн маш олон таньд хэрэгтэй контент хямд төлбөрөөр таний гарт.
 			</p>
 			<div className='cards-container1'>
 				<div className='card'>
@@ -145,7 +145,7 @@ h2 {
 		background: #3c41df;
 	}
 }
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 800px) {
 	.parag {
 		width: 100%;
 	}

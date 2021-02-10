@@ -40,7 +40,7 @@ function SectionTwo() {
 					Биднийг сонгох шалтгаан
 				</h2>
 				<p>
-					Lorem ipsum dolor sit amet ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+					Манай хэрэглүүр нь ихэнх подкасд аппуудыг бодвол та дуртай, хэрэгтэй контент, дуу хөгжим, ном гэх мэтчилэн зүйлсийг татан авч хаана ч интернет сүлжээгүйгээр сонсох боломжтой.
 				</p>
 			</div>
 		</SectionTwoStyled>
@@ -105,7 +105,7 @@ h2 {
 		opacity: 0.7;
 	}
 }
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 800px) {
 	margin-top: 15vh!important;
 	h2 {
 		width: 100%;

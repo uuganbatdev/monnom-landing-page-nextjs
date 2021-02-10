@@ -11,7 +11,7 @@ function SectionThree() {
 			<div className='right-side'>
 				<h2>Аппны ерөнхий танилцуулга</h2>
 				<p>
-					Lorem ipsu erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+				Хэрэглэхэд хялбар бөгөөд бага төлбөрөөр та их хэмжээний контент, подкаст, дуу хөгжим татан аван, түрээслэсэн тохиолдолд интернетгүй үед ч сонсож унших боломжтой юм.
 				</p>
 				<a href='#'>
 					Илүү ихийг
@@ -78,7 +78,7 @@ img {
 		background: #3c41df;
 	}
 }
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 800px) {
 	.bg, img {
 		display: none;
 	}
